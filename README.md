@@ -31,3 +31,4 @@ protected void cleanup(Context context) throws IOException, InterruptedException
      rank++;
   }
 }
+<img width="736" alt="fe2907164a01c4ad4ea0b4cd9e9c35f" src="https://github.com/user-attachments/assets/169950d1-3a1c-400c-ae0e-2a358c053626">
