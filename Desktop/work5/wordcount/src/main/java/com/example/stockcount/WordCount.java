@@ -44,7 +44,7 @@ public class WordCount {
         public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
             String line = value.toString();
             int firstCommaIndex = line.indexOf(',');
-            int lastCommaIndex = line.lastIndexOf(',', line.length() - 3);
+            int lastCommaIndex = line.lastIndexOf(',', line.length() - 2);
 
             if (firstCommaIndex != -1 && lastCommaIndex != -1 && firstCommaIndex < lastCommaIndex) {
                 String extractedContent = line.substring(firstCommaIndex + 1, lastCommaIndex).trim();
